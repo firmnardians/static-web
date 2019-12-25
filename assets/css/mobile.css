@@ -1,0 +1,60 @@
+@media only screen and (max-width: 775px) {
+    .dataFlex{
+        display: block;
+    }
+    .aboutMeHome {
+        padding: 0px;
+        width: auto;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .project{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .navbar {
+        padding: 10px 20px;
+    }
+    .zoom img{
+        top: -10%;
+        max-width: 150%;
+        width: 120%;
+    }
+    .cardLeft {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: auto;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .cardPaddingRight {
+        padding-right: 0px;
+    }
+    .imgCoding{
+        display: none;
+    }
+    .cardRight {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: auto;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+  }
+
+  @media only screen and (max-width: 495px) {
+    .zoom img{
+        top: -50%;
+        max-width: 220%;
+        width: 200%;
+    }
+    .cardtitleHomePage {
+        text-align: center;
+        top: 100px;
+        left: -5px;
+        position: relative;
+    }
+    .titleName h3{
+        font-size: 17px;
+    }
+  }
